@@ -16,8 +16,11 @@ been hit), you must display whether “I won” *(and return 0)* or “Enemy won
 
 ##### FILE FORMAT:
 The file passed as parameter must contain lines formatted the following way:
+
 > LENGTH : FIRST_SQUARE : LAST_SQUARE
-where LENGTH is the length of the ship, FIRST_SQUARE and LAST_SQUARE its first and last positions.
+
+where **LENGTH** is the length of the ship, **FIRST_SQUARE** and **LAST_SQUARE** its first and last positions.
+
 In this file, you must have 4 ships (of lengths 2,3,4 and 5).
 If the navy file is invalid, you have to quit the program and consider it as an error.
 
